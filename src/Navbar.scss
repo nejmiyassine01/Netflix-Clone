@@ -1,0 +1,33 @@
+.nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 20px;
+    height: 50px;
+    z-index: 100;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__black {
+        background-color: rgba(#000, .7);
+        transition: all .3s ease-in-out;
+    }
+    
+    &__logo {
+        position: fixed;
+        left: 20px;
+        width: 80px;
+        object-fit: contain;
+        cursor: pointer;
+    }
+
+    &__avatar {
+        position: fixed;
+        right: 20px;
+        width: 30px;
+        object-fit: contain;
+        cursor: pointer;
+    }
+}
